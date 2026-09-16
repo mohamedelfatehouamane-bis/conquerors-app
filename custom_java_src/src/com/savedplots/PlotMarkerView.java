@@ -12,12 +12,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Transparent overlay view that displays markers on the game screen.
- * Never intercepts touches so gameplay is unaffected.
+ * Transparent overlay for saved map markers.
+ * Persistent marker identity is the world coordinate; screen position is
+ * recalculated from the active map transform whenever possible.
  */
 public class PlotMarkerView extends View {
     private List<SavedPlot> plots = new ArrayList<SavedPlot>();
     private boolean markersVisible = false;
+    private MapCoordinateProvider coordinateProvider;
 
     private float tempMarkerX = -1;
     private float tempMarkerY = -1;
@@ -40,11 +42,11 @@ public class PlotMarkerView extends View {
 
     private void initPaints() {
         diamondPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        diamondPaint.setColor(Color.parseColor("#FFD700")); // Gold
+        diamondPaint.setColor(Color.parseColor("#FFD700"));
         diamondPaint.setStyle(Paint.Style.FILL);
 
         diamondStrokePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        diamondStrokePaint.setColor(Color.parseColor("#803300")); // Dark gold border
+        diamondStrokePaint.setColor(Color.parseColor("#803300"));
         diamondStrokePaint.setStyle(Paint.Style.STROKE);
         diamondStrokePaint.setStrokeWidth(2f * density);
 
@@ -55,12 +57,17 @@ public class PlotMarkerView extends View {
         textPaint.setFakeBoldText(true);
 
         badgePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        badgePaint.setColor(Color.argb(200, 20, 25, 35)); // Deep dark semi-transparent
+        badgePaint.setColor(Color.argb(200, 20, 25, 35));
         badgePaint.setStyle(Paint.Style.FILL);
 
         tempMarkerPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        tempMarkerPaint.setColor(Color.parseColor("#00E5FF")); // Cyan pulse for newly selected
+        tempMarkerPaint.setColor(Color.parseColor("#00E5FF"));
         tempMarkerPaint.setStyle(Paint.Style.FILL);
+    }
+
+    public void setCoordinateProvider(MapCoordinateProvider provider) {
+        this.coordinateProvider = provider;
+        invalidate();
     }
 
     public void setPlots(List<SavedPlot> newPlots) {
@@ -91,9 +98,12 @@ public class PlotMarkerView extends View {
         invalidate();
     }
 
+    public void refreshFromWorld() {
+        invalidate();
+    }
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        // ALWAYS pass through touches to the underlying game view
         return false;
     }
 
@@ -101,23 +111,32 @@ public class PlotMarkerView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        // Draw saved plots if visible
         if (markersVisible && plots != null) {
             for (SavedPlot plot : plots) {
-                drawPlotMarker(canvas, plot.getScreenX(), plot.getScreenY(), plot.getName(), false);
+                MapCoordinateProvider.ScreenPoint screen = null;
+                if (coordinateProvider != null && plot.getWorldX() != null && plot.getWorldY() != null) {
+                    screen = coordinateProvider.worldToScreen(plot.getWorldX(), plot.getWorldY());
+                }
+
+                // Legacy entries may not have world coordinates. Keep their last screen
+                // position visible rather than inventing a world transform.
+                float x = screen != null ? screen.x : plot.getScreenX();
+                float y = screen != null ? screen.y : plot.getScreenY();
+                drawPlotMarker(canvas, x, y, plot.getName(), false);
             }
         }
 
-        // Draw temporary marker if user just tapped
         if (showTempMarker && tempMarkerX >= 0 && tempMarkerY >= 0) {
             drawPlotMarker(canvas, tempMarkerX, tempMarkerY, "Selected", true);
         }
     }
 
     private void drawPlotMarker(Canvas canvas, float x, float y, String name, boolean isTemp) {
-        float size = 12f * density;
+        if (x < -200 || y < -200 || x > getWidth() + 200 || y > getHeight() + 200) {
+            return;
+        }
 
-        // 1. Draw diamond ◇
+        float size = 12f * density;
         Path diamondPath = new Path();
         diamondPath.moveTo(x, y - size);
         diamondPath.lineTo(x + size, y);
@@ -125,19 +144,13 @@ public class PlotMarkerView extends View {
         diamondPath.lineTo(x - size, y);
         diamondPath.close();
 
-        if (isTemp) {
-            canvas.drawPath(diamondPath, tempMarkerPaint);
-        } else {
-            canvas.drawPath(diamondPath, diamondPaint);
-        }
+        canvas.drawPath(diamondPath, isTemp ? tempMarkerPaint : diamondPaint);
         canvas.drawPath(diamondPath, diamondStrokePaint);
 
-        // Center dot
         Paint centerDot = new Paint(Paint.ANTI_ALIAS_FLAG);
         centerDot.setColor(Color.WHITE);
         canvas.drawCircle(x, y, 3f * density, centerDot);
 
-        // 2. Draw badge with text above diamond
         String label = (name != null && !name.trim().isEmpty()) ? name : "Plot";
         float textWidth = textPaint.measureText(label);
         float padX = 8f * density;
@@ -153,14 +166,12 @@ public class PlotMarkerView extends View {
         RectF rect = new RectF(badgeLeft, badgeTop, badgeRight, badgeBottom);
         canvas.drawRoundRect(rect, 4f * density, 4f * density, badgePaint);
 
-        // Badge border
         Paint borderPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         borderPaint.setStyle(Paint.Style.STROKE);
         borderPaint.setStrokeWidth(1.2f * density);
         borderPaint.setColor(isTemp ? Color.parseColor("#00E5FF") : Color.parseColor("#D4AF37"));
         canvas.drawRoundRect(rect, 4f * density, 4f * density, borderPaint);
 
-        // Text
         float textY = badgeTop + padY + textPaint.getTextSize() * 0.85f;
         canvas.drawText(label, x, textY, textPaint);
     }
