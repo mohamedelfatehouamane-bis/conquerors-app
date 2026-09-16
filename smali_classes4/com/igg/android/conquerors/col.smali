@@ -2100,6 +2100,8 @@
     .line 319
     invoke-static {p0}, Lcom/ThirdPartySDK;->init(Lcom/igg/android/conquerors/col;)V
 
+    invoke-static {p0}, Lcom/savedplots/PlotOverlayManager;->init(Landroid/app/Activity;)V
+
     .line 320
     invoke-static {p0}, Lcom/igg/android/conquerors/GPCAgreementHelper;->init(Lcom/igg/android/conquerors/col;)V
 
