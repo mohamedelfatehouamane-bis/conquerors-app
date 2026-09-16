@@ -1,0 +1,324 @@
+{
+	"attack_side" : 
+	{
+		"all_power" : 31739,
+		"amount" : 2400,
+		"head" : 0,
+		"injured" : 157,
+		"kill" : 2800,
+		"leguage" : "",
+		"loss" : 0,
+		"name" : "",
+		"player_id" : 99,
+		"portrait" : 0,
+		"posx" : 4,
+		"posy" : 949,
+		"power" : -801,
+		"server_id" : 3,
+		"server_name" : "Win😊",
+		"survival" : 2243,
+		"tf_dominon_id" : 0,
+		"trap_loss" : 0
+	},
+	"data" : 
+	{
+		"vecBehavior" : 
+		[
+			{
+				"eType" : 2,
+				"nValue2" : 0,
+				"ucAttackCamp" : 0,
+				"ucAttackType" : 0,
+				"ucDefendCamp" : 0,
+				"ucDefendType" : 0,
+				"unAttackHeroId" : 0,
+				"unDefendHeroId" : 0,
+				"unValue1" : 0
+			},
+			{
+				"eType" : 1,
+				"nValue2" : 0,
+				"ucAttackCamp" : 1,
+				"ucAttackType" : 2,
+				"ucDefendCamp" : 17,
+				"ucDefendType" : 2,
+				"unAttackHeroId" : 216,
+				"unDefendHeroId" : 206,
+				"unValue1" : 216022
+			},
+			{
+				"eType" : 1,
+				"nValue2" : 0,
+				"ucAttackCamp" : 1,
+				"ucAttackType" : 2,
+				"ucDefendCamp" : 17,
+				"ucDefendType" : 2,
+				"unAttackHeroId" : 216,
+				"unDefendHeroId" : 306,
+				"unValue1" : 216022
+			},
+			{
+				"eType" : 1,
+				"nValue2" : 0,
+				"ucAttackCamp" : 1,
+				"ucAttackType" : 2,
+				"ucDefendCamp" : 17,
+				"ucDefendType" : 2,
+				"unAttackHeroId" : 216,
+				"unDefendHeroId" : 406,
+				"unValue1" : 216022
+			}
+		]
+	},
+	"defend_side" : 
+	{
+		"all_power" : 91782,
+		"amount" : 2800,
+		"head" : 2,
+		"injured" : 2800,
+		"kill" : 157,
+		"leguage" : "",
+		"loss" : 0,
+		"name" : "pve_stage_name_1_2",
+		"player_id" : 0,
+		"portrait" : 255,
+		"posx" : 0,
+		"posy" : 0,
+		"power" : -21960,
+		"server_id" : 3,
+		"server_name" : "Win😊",
+		"survival" : 0,
+		"tf_dominon_id" : 0,
+		"trap_loss" : 0
+	},
+	"id" : "BECC0275F9B84E16B088C4B11ADAEAF8",
+	"main_atk_addition" : 
+	{
+		"airForce" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"bowling_attack" : 0,
+		"cavalry" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"infantry" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"mechanize" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"rocket_attack" : 0,
+		"stone_attack" : 0
+	},
+	"main_def_addition" : 
+	{
+		"airForce" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"bowling_attack" : 0,
+		"cavalry" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"infantry" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"mechanize" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"rocket_attack" : 0,
+		"stone_attack" : 0
+	},
+	"nAttackerLeaderID" : 0,
+	"nDefenderLeaderID" : 0,
+	"rounds" : [],
+	"sTradeParam" : "",
+	"summary" : 
+	{
+		"attackers" : 
+		[
+			{
+				"head" : 0,
+				"heros" : 
+				[
+					{
+						"a_kill" : 0,
+						"alive" : 1000,
+						"army_id" : 1201,
+						"army_level" : 1,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 201,
+						"level" : 1,
+						"loss" : 0,
+						"quality" : 0,
+						"skill_level" : 1,
+						"station" : 10,
+						"vecSlots" : []
+					},
+					{
+						"a_kill" : 10,
+						"alive" : 1400,
+						"army_id" : 1206,
+						"army_level" : 1,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 206,
+						"level" : 5,
+						"loss" : 0,
+						"quality" : 0,
+						"skill_level" : 2,
+						"station" : 25,
+						"vecSlots" : []
+					},
+					{
+						"a_kill" : 2400,
+						"alive" : 1000,
+						"army_id" : 1216,
+						"army_level" : 1,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 216,
+						"level" : 1,
+						"loss" : 0,
+						"quality" : 0,
+						"skill_level" : 1,
+						"station" : 25,
+						"vecSlots" : []
+					}
+				],
+				"id" : 99,
+				"league" : "",
+				"name" : "99",
+				"queue_id" : 0,
+				"thunders" : [],
+				"towers" : [],
+				"traps" : []
+			}
+		],
+		"defenders" : 
+		[
+			{
+				"head" : 2,
+				"heros" : 
+				[
+                    {
+						"a_kill" : 0,
+						"alive" : 800,
+						"army_id" : 1201,
+						"army_level" : 2,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 201,
+						"level" : 1,
+						"loss" : 0,
+						"quality" : 0,
+						"skill_level" : 1,
+						"station" : 25,
+						"vecSlots" : []
+					},
+                    {
+						"a_kill" : 0,
+						"alive" : 800,
+						"army_id" : 1301,
+						"army_level" : 2,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 301,
+						"level" : 11,
+						"loss" : 0,
+						"quality" : 0,
+						"skill_level" : 1,
+						"station" : 25,
+						"vecSlots" : []
+					},
+					{
+						"a_kill" : 0,
+						"alive" : 0,
+						"army_id" : 1206,
+						"army_level" : 1,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 206,
+						"level" : 1,
+						"loss" : 800,
+						"quality" : 0,
+						"skill_level" : 1,
+						"station" : 25,
+						"vecSlots" : []
+					},
+					{
+						"a_kill" : 0,
+						"alive" : 0,
+						"army_id" : 1306,
+						"army_level" : 2,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 306,
+						"level" : 1,
+						"loss" : 800,
+						"quality" : 0,
+						"skill_level" : 1,
+						"station" : 25,
+						"vecSlots" : []
+					},
+					{
+						"a_kill" : 0,
+						"alive" : 0,
+						"army_id" : 1406,
+						"army_level" : 1,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 406,
+						"level" : 1,
+						"loss" : 800,
+						"quality" : 0,
+						"skill_level" : 1,
+						"station" : 25,
+						"vecSlots" : []
+					}
+				],
+				"id" : 1,
+				"league" : "",
+				"name" : "pve_stage_name_1_2",
+				"queue_id" : 0,
+				"thunders" : [],
+				"towers" : [],
+				"traps" : []
+			}
+		]
+	},
+	"time" : 1547466134,
+	"type" : 102
+}

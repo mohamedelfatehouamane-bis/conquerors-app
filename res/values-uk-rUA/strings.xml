@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="insert_sdcard">Вставте SD-картку</string>
+    <string name="pic_preview">Переглянути зображення</string>
+    <string name="pic_select">Виберіть зображення</string>
+    <string name="pics">зображення</string>
+    <string name="pull_to_refresh_pull_label">Потягніть донизу, щоб оновити…</string>
+    <string name="pull_to_refresh_refreshing_label">Триває завантаження…</string>
+    <string name="pull_to_refresh_release_label">Відпустіть, щоб оновити…</string>
+    <string name="recent_pictures">Нещодавні фото</string>
+    <string name="take_photo">Зробити фото</string>
+</resources>

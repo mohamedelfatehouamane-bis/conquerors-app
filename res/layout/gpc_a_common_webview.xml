@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_root" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_title_bar" android:background="#ffeeeeee" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@id/placeholder" android:layout_width="match_parent" android:layout_height="0.0dp" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="48.0dp">
+            <ImageView android:id="@id/webview_btn_back" android:layout_width="45.0dp" android:layout_height="45.0dp" android:src="@drawable/gpc_a_icon_webview_back_dark" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/webview_btn_home" android:padding="4.0dp" android:visibility="gone" android:layout_width="36.0dp" android:layout_height="36.0dp" android:src="@null" android:tint="@android:color/black" android:layout_toRightOf="@id/webview_btn_back" android:layout_centerVertical="true" android:layout_toEndOf="@id/webview_btn_back" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/webview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/webview_btn_close" android:layout_width="45.0dp" android:layout_height="45.0dp" android:src="@drawable/gpc_a_icon_webview_close_dark" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/webview_content" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/layout_title_bar">
+        <ProgressBar android:id="@id/webview_content_load_progress" android:layout_width="match_parent" android:layout_height="4.0dp" android:indeterminateDrawable="@drawable/gpc_a_webview_process" android:progressDrawable="@drawable/gpc_a_webview_process" style="@android:style/Widget.ProgressBar.Horizontal" />
+        <WebView android:id="@id/webview_web" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/webview_content_load_progress" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/webview_rl_error" android:background="#ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/layout_title_bar">
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:id="@id/webview_text_reload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gpc_a_webview_load_failed" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/webview_img_reload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.5dp" android:src="@null" android:layout_above="@id/webview_text_reload" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="#8594ad" android:gravity="center" android:id="@id/webview_btn_reload" android:background="@drawable/gpc_a_webview_reload_btn_bg_stroke" android:layout_width="150.0dp" android:layout_height="45.0dp" android:layout_marginTop="27.5dp" android:text="@string/gpc_a_webview_reload" android:layout_below="@id/webview_text_reload" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

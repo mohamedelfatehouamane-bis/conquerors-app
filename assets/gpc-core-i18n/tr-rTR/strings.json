@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "Yenile",
+  "gpc_a_webview_load_failed": "Yüklenemedi",
+  "gpc_a_request_permissions_dialog_cancel": "İptal",
+  "gpc_a_request_permissions_dialog_ok": "Tamam",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "Ayarlara git",
+  "gpc_a_request_permissions_tip_dialog_know": "Tamam",
+  "gpc_a_request_notification_permissions_dialog_new_title": "Bildirimleri Etkinleştir",
+  "gpc_a_request_notification_permissions_dialog_title": "%1$s, bildirim göndermek için izin istiyor",
+  "gpc_a_request_notification_permissions_dialog_message": "Son oyun güncellemelerini almak için bildirimleri etkinleştir",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "%1$s, bildirim göndermek için izin istiyor",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "Bildirimleri etkinleştirmek için [Ayarlar]-[Bildirimler] kısmından \"%1$s\" uygulamasını bul"
+}

@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "إعادة تحميل",
+  "gpc_a_webview_load_failed": "فشل في التحميل",
+  "gpc_a_request_permissions_dialog_cancel": "إلغاء",
+  "gpc_a_request_permissions_dialog_ok": "الموافق",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "انتقال إلى الإعدادات",
+  "gpc_a_request_permissions_tip_dialog_know": "الموافق",
+  "gpc_a_request_notification_permissions_dialog_new_title": "تمكّن الإشعارات",
+  "gpc_a_request_notification_permissions_dialog_title": "\"%1$s\" يطلب الإذن لإرسال الإشعارات.",
+  "gpc_a_request_notification_permissions_dialog_message": "تمكين الإشعارات لتلقي آخر تحديثات اللعبة.",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "\"%1$s\" يطلب الإذن لإرسال الإشعارات.",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "انتقل إلى [الإعدادات] - [الإشعارات] واسمح تطبيق \"%1$s\" للإشعارات."
+}

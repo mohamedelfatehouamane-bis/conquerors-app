@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <serial-number>6</serial-number>
+    <date>2025-04-13 23:00:18 (GMT-5)</date>
+    <dependency>
+        <product>
+            <name>gpcsdk-unity</name>
+            <minimum-version>0.15.0</minimum-version>
+        </product>
+        <product>
+            <name>gpcsdk-android</name>
+            <minimum-version>2.17.0</minimum-version>
+        </product>
+        <product>
+            <name>gpcsdk-ios</name>
+            <minimum-version>2.18.0</minimum-version>
+        </product>
+        <product>
+            <name>operations-sdk-android</name>
+            <minimum-version>1.14.0</minimum-version>
+        </product>
+        <product>
+            <name>operations-sdk-ios</name>
+            <minimum-version>1.13.0</minimum-version>
+        </product>
+    </dependency>
+    <data>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</data>
+</config>

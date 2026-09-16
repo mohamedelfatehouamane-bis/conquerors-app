@@ -1,0 +1,74 @@
+{
+	"attack_protect" : 0,
+	"attack_side" : 
+	{
+		"all_power" : 28300,
+		"amount" : 1000,
+		"head" : 0,
+		"injured" : 355,
+		"kill" : 1428,
+		"leguage" : "",
+		"loss" : 0,
+		"name" : "",
+		"player_id" : 99,
+		"portrait" : 0,
+		"posx" : 4,
+		"posy" : 949,
+		"power" : -611,
+		"server_id" : 3,
+		"server_name" : "Win😊",
+		"survival" : 645,
+		"tf_dominon_id" : 0,
+		"trap_loss" : 0
+	},
+	"bCastleBattleCatch" : false,
+	"bIsLeader" : false,
+	"bResourcesFlag" : true,
+	"bResourcesProtection" : false,
+	"defend_side" : 
+	{
+		"all_power" : 27900,
+		"amount" : 2800,
+		"head" : 1,
+		"injured" : 1200,
+		"kill" : 0,
+		"leguage" : "",
+		"loss" : 0,
+		"name" : "pve_stage_name_1_1",
+		"player_id" : 0,
+		"portrait" : 255,
+		"posx" : 0,
+		"posy" : 0,
+		"power" : -9228,
+		"server_id" : 3,
+		"server_name" : "Win😊",
+		"survival" : 1372,
+		"tf_dominon_id" : 0,
+		"trap_loss" : 0
+	},
+	"detail" : "C54E1ECDB5DC4501A9F57030BE8E9C20",
+	"dominon_occupied" : false,
+	"injured" : 
+	[
+		{
+			"nNumber" : 2,
+			"nValue" : 355
+		}
+	],
+	"my_castle_level" : 1,
+	"nChapterId" : 11,
+	"nCrossRobScore" : 0,
+	"nModifyCup" : 0,
+	"nPointId" : 1,
+	"resource" : [],
+	"sTradeParam" : "",
+	"strEnemyLeaderInfo" : "",
+	"strLeaderInfo" : "",
+	"type" : 105,
+	"ucPVEStar" : 3,
+	"unExtraArmyLoss" : 0,
+	"vEnemyLeaderBuff" : [],
+	"vLeaderBuff" : [],
+	"vSelfBuff" : [],
+	"victory" : true
+}

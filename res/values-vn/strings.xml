@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">240156482747856</string>
+    <string name="button_more">more</string>
+    <string name="friend_invate_no_app">Your phone did not install a sharing app!</string>
+    <string name="friend_invite_app_uninstall">%1$s is not installed on your device!</string>
+    <string name="friend_invite_facebook_fail">Facebook Buddy invitation fail!</string>
+    <string name="friend_invite_facebook_success">Facebook Buddy invitation sent!</string>
+    <string name="friend_invite_send_via">Send via:</string>
+    <string name="friend_invite_subject">INVITE FRIENDS</string>
+    <string name="friend_invite_success">Buddy invitation successfully sent!</string>
+    <string name="friend_invite_text">"Hey, I'm playing Conquerors! Come join me and let's kick some ass!"</string>
+    <string name="friend_invite_tip">"Life doesn’t get any better than playing Conquerors with friends, right?
+Right!How fun it is playing Conquerors with a bunch of friends!"</string>
+    <string name="friend_invite_title">Tell Your Friends!</string>
+</resources>

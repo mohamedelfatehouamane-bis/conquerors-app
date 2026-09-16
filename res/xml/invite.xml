@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <Invite action="android.intent.action.SEND" enable="true" except="" icon="invite_kakao" locale="KR" name="Kakao" package="com.kakao.talk" sdk="" type="text/plain" />
+    <Invite action="android.intent.action.SEND" enable="true" except="" icon="invite_line" locale="JP,TW" name="Line" package="jp.naver.line.android" sdk="" type="text/plain" />
+    <Invite action="android.intent.action.SEND" enable="true" except="" icon="invite_rumail" locale="RU" name="rumail" package="ru.mail.mailapp" sdk="" type="" />
+    <Invite action="" enable="true" except="" icon="invite_fb" locale="all" name="Facebook" package="" sdk="com.igg.sdk.invite.FacebookFriendActivity" type="" />
+    <Invite action="android.intent.action.SEND" enable="true" except="TW" icon="invite_twitter" locale="all" name="Twitter" package="com.twitter.android" sdk="" type="text/plain" />
+    <Invite action="android.intent.action.SEND" enable="true" except="" icon="invite_whatsapp" locale="all" name="WhatsApp" package="com.whatsapp" sdk="" type="text/plain" />
+    <Invite action="android.intent.action.VIEW" enable="true" except="" icon="invite_sms" locale="all" name="SMS" package="" sdk="" type="vnd.android-dir/mms-sms" />
+    <Invite action="android.intent.action.SEND" enable="true" except="" icon="invite_discord" locale="all" name="Discord" package="com.discord" sdk="" type="text/plain" />
+</resources>

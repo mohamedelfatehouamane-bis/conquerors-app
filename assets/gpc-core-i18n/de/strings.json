@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "Erneut laden",
+  "gpc_a_webview_load_failed": "Laden gescheitert",
+  "gpc_a_request_permissions_dialog_cancel": "Abbrechen",
+  "gpc_a_request_permissions_dialog_ok": "OK",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "Zu den Einstellungen",
+  "gpc_a_request_permissions_tip_dialog_know": "OK",
+  "gpc_a_request_notification_permissions_dialog_new_title": "Benachrichtigungen aktivieren",
+  "gpc_a_request_notification_permissions_dialog_title": "\"%1$s\" fordert Erlaubnis zum Senden von Benachrichtigungen an",
+  "gpc_a_request_notification_permissions_dialog_message": "Aktiviere Benachrichtigungen, um die neuesten Spiel-Updates zu erhalten",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "\"%1$s\" fordert Erlaubnis zum Senden von Benachrichtigungen an",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "Gehe zu [Einstellungen]-[Benachrichtigungen] und suche die \"%1$s\" App, um Benachrichtigungen zu aktivieren"
+}

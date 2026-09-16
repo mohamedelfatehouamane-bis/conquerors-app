@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "Muat ulang",
+  "gpc_a_webview_load_failed": "Gagal memuat",
+  "gpc_a_request_permissions_dialog_cancel": "Batal",
+  "gpc_a_request_permissions_dialog_ok": "OK",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "Masuk ke Pengaturan",
+  "gpc_a_request_permissions_tip_dialog_know": "OK",
+  "gpc_a_request_notification_permissions_dialog_new_title": "Izinkan Notifikasi",
+  "gpc_a_request_notification_permissions_dialog_title": "\"%1$s\" meminta izin untuk mengirim notifikasi",
+  "gpc_a_request_notification_permissions_dialog_message": "Aktifkan notifikasi untuk menerima update game terbaru",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "\"%1$s\" meminta izin untuk mengirim notifikasi",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "Masuk ke [Pengaturan]-[Pemberitahuan] dan cari aplikasi \"%1$s\" untuk mengaktifkan notifikasi"
+}

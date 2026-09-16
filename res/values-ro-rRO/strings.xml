@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="insert_sdcard">Introdu cardul SD</string>
+    <string name="pic_preview">Previzualizează imaginea</string>
+    <string name="pic_select">Selectează imaginea</string>
+    <string name="pics">fotografii</string>
+    <string name="pull_to_refresh_pull_label">Trage în jos pentru reîmprospătare…</string>
+    <string name="pull_to_refresh_refreshing_label">Se încarcă…</string>
+    <string name="pull_to_refresh_release_label">Eliberează pentru reîmprospătare…</string>
+    <string name="recent_pictures">Fotografii recente</string>
+    <string name="take_photo">Fotografiază</string>
+</resources>

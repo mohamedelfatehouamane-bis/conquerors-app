@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "Перезагрузка",
+  "gpc_a_webview_load_failed": "Ошибка загрузки",
+  "gpc_a_request_permissions_dialog_cancel": "Скасувати",
+  "gpc_a_request_permissions_dialog_ok": "OK",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "Перейти до налаштувань",
+  "gpc_a_request_permissions_tip_dialog_know": "OK",
+  "gpc_a_request_notification_permissions_dialog_new_title": "Увімкнути повідомлення",
+  "gpc_a_request_notification_permissions_dialog_title": "«%1$s» запитує дозвіл на надсилання повідомлень",
+  "gpc_a_request_notification_permissions_dialog_message": "Увімкніть повідомлення, щоб отримати останні оновлення гри",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "«%1$s» запитує дозвіл на надсилання повідомлень",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "Перейдіть до [Параметри]-[Сповіщення] та знайдіть «%1$s», щоб увімкнути сповіщення"
+}

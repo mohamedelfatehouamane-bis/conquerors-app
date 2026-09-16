@@ -1,0 +1,54 @@
+.class Lcom/InvokeHelper$34;
+.super Ljava/lang/Object;
+.source "InvokeHelper.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/InvokeHelper;->unlockAchievement(Ljava/lang/String;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic val$strID:Ljava/lang/String;
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/String;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 725
+    iput-object p1, p0, Lcom/InvokeHelper$34;->val$strID:Ljava/lang/String;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 2
+
+    .line 727
+    sget-object v0, Lcom/InvokeHelper;->GameInstance:Lcom/igg/android/conquerors/col;
+
+    iget-object v1, p0, Lcom/InvokeHelper$34;->val$strID:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Lcom/igg/android/conquerors/col;->unlockAchievement(Ljava/lang/String;)V
+
+    return-void
+.end method

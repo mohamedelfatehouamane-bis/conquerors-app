@@ -1,0 +1,231 @@
+.class public final Lcom/gpc/operations/migrate/utils/factory/Factory;
+.super Lcom/gpc/operations/migrate/utils/factory/ModuleBaseFactory;
+.source "SourceFile"
+
+
+# static fields
+.field private static final TAG:Ljava/lang/String; = "Factory"
+
+.field private static httpFactory:Lcom/gpc/operations/migrate/utils/factory/IHTTPFactory;
+
+.field private static serviceFactory:Lcom/gpc/operations/migrate/utils/factory/IServiceFactory;
+
+.field private static timerFactory:Lcom/gpc/operations/migrate/utils/factory/ITimerFactory;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/gpc/operations/migrate/utils/factory/ModuleBaseFactory;-><init>()V
+
+    return-void
+.end method
+
+.method public static declared-synchronized httpFactory()Lcom/gpc/operations/migrate/utils/factory/IHTTPFactory;
+    .locals 2
+
+    const-class v0, Lcom/gpc/operations/migrate/utils/factory/Factory;
+
+    monitor-enter v0
+
+    .line 1
+    :try_start_0
+    sget-object v1, Lcom/gpc/operations/migrate/utils/factory/Factory;->httpFactory:Lcom/gpc/operations/migrate/utils/factory/IHTTPFactory;
+
+    if-nez v1, :cond_0
+
+    .line 2
+    new-instance v1, Lcom/gpc/operations/migrate/utils/factory/HTTPFactoryImpl;
+
+    invoke-direct {v1}, Lcom/gpc/operations/migrate/utils/factory/HTTPFactoryImpl;-><init>()V
+
+    sput-object v1, Lcom/gpc/operations/migrate/utils/factory/Factory;->httpFactory:Lcom/gpc/operations/migrate/utils/factory/IHTTPFactory;
+
+    .line 4
+    :cond_0
+    sget-object v1, Lcom/gpc/operations/migrate/utils/factory/Factory;->httpFactory:Lcom/gpc/operations/migrate/utils/factory/IHTTPFactory;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-object v1
+
+    :catchall_0
+    move-exception v1
+
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v1
+.end method
+
+.method public static declared-synchronized serviceFactory()Lcom/gpc/operations/migrate/utils/factory/IServiceFactory;
+    .locals 2
+
+    const-class v0, Lcom/gpc/operations/migrate/utils/factory/Factory;
+
+    monitor-enter v0
+
+    .line 1
+    :try_start_0
+    sget-object v1, Lcom/gpc/operations/migrate/utils/factory/Factory;->serviceFactory:Lcom/gpc/operations/migrate/utils/factory/IServiceFactory;
+
+    if-nez v1, :cond_0
+
+    .line 2
+    new-instance v1, Lcom/gpc/operations/migrate/utils/factory/ServiceFactoryImpl;
+
+    invoke-direct {v1}, Lcom/gpc/operations/migrate/utils/factory/ServiceFactoryImpl;-><init>()V
+
+    sput-object v1, Lcom/gpc/operations/migrate/utils/factory/Factory;->serviceFactory:Lcom/gpc/operations/migrate/utils/factory/IServiceFactory;
+
+    .line 4
+    :cond_0
+    sget-object v1, Lcom/gpc/operations/migrate/utils/factory/Factory;->serviceFactory:Lcom/gpc/operations/migrate/utils/factory/IServiceFactory;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-object v1
+
+    :catchall_0
+    move-exception v1
+
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v1
+.end method
+
+.method public static declared-synchronized setHttpFactory(Lcom/gpc/operations/migrate/utils/factory/IHTTPFactory;)V
+    .locals 1
+
+    const-class v0, Lcom/gpc/operations/migrate/utils/factory/Factory;
+
+    monitor-enter v0
+
+    .line 1
+    :try_start_0
+    sput-object p0, Lcom/gpc/operations/migrate/utils/factory/Factory;->httpFactory:Lcom/gpc/operations/migrate/utils/factory/IHTTPFactory;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-void
+
+    :catchall_0
+    move-exception p0
+
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw p0
+.end method
+
+.method public static declared-synchronized setServiceFactory(Lcom/gpc/operations/migrate/utils/factory/IServiceFactory;)V
+    .locals 1
+
+    const-class v0, Lcom/gpc/operations/migrate/utils/factory/Factory;
+
+    monitor-enter v0
+
+    .line 1
+    :try_start_0
+    sput-object p0, Lcom/gpc/operations/migrate/utils/factory/Factory;->serviceFactory:Lcom/gpc/operations/migrate/utils/factory/IServiceFactory;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-void
+
+    :catchall_0
+    move-exception p0
+
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw p0
+.end method
+
+.method public static declared-synchronized setTimerFactory(Lcom/gpc/operations/migrate/utils/factory/ITimerFactory;)V
+    .locals 1
+
+    const-class v0, Lcom/gpc/operations/migrate/utils/factory/Factory;
+
+    monitor-enter v0
+
+    .line 1
+    :try_start_0
+    sput-object p0, Lcom/gpc/operations/migrate/utils/factory/Factory;->timerFactory:Lcom/gpc/operations/migrate/utils/factory/ITimerFactory;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-void
+
+    :catchall_0
+    move-exception p0
+
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw p0
+.end method
+
+.method public static declared-synchronized timerFactory()Lcom/gpc/operations/migrate/utils/factory/ITimerFactory;
+    .locals 2
+
+    const-class v0, Lcom/gpc/operations/migrate/utils/factory/Factory;
+
+    monitor-enter v0
+
+    .line 1
+    :try_start_0
+    sget-object v1, Lcom/gpc/operations/migrate/utils/factory/Factory;->timerFactory:Lcom/gpc/operations/migrate/utils/factory/ITimerFactory;
+
+    if-nez v1, :cond_0
+
+    .line 2
+    new-instance v1, Lcom/gpc/operations/migrate/utils/factory/TimerFactoryImpl;
+
+    invoke-direct {v1}, Lcom/gpc/operations/migrate/utils/factory/TimerFactoryImpl;-><init>()V
+
+    sput-object v1, Lcom/gpc/operations/migrate/utils/factory/Factory;->timerFactory:Lcom/gpc/operations/migrate/utils/factory/ITimerFactory;
+
+    .line 4
+    :cond_0
+    sget-object v1, Lcom/gpc/operations/migrate/utils/factory/Factory;->timerFactory:Lcom/gpc/operations/migrate/utils/factory/ITimerFactory;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-object v1
+
+    :catchall_0
+    move-exception v1
+
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v1
+.end method

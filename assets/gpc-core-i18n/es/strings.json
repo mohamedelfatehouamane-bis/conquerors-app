@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "Recargar",
+  "gpc_a_webview_load_failed": "Error al cargar",
+  "gpc_a_request_permissions_dialog_cancel": "Cancelar",
+  "gpc_a_request_permissions_dialog_ok": "Aceptar",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "Ir a ajustes",
+  "gpc_a_request_permissions_tip_dialog_know": "Aceptar",
+  "gpc_a_request_notification_permissions_dialog_new_title": "Activar notificaciones",
+  "gpc_a_request_notification_permissions_dialog_title": "%1$s solicita permiso para enviar notificaciones",
+  "gpc_a_request_notification_permissions_dialog_message": "Habilita las notificaciones para recibir las últimas actualizaciones del juego",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "%1$s solicita permiso para enviar notificaciones",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "Ve a [Ajustes]-[Notificaciones] y localiza la aplicación \"%1$s\" para activar las notificaciones"
+}

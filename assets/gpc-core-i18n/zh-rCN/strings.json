@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "重新加载",
+  "gpc_a_webview_load_failed": "加载失败",
+  "gpc_a_request_permissions_dialog_cancel": "取消",
+  "gpc_a_request_permissions_dialog_ok": "授权",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "前往设置",
+  "gpc_a_request_permissions_tip_dialog_know": "我知道了",
+  "gpc_a_request_notification_permissions_dialog_new_title": "开启通知",
+  "gpc_a_request_notification_permissions_dialog_title": "\"%1$s\"请求消息通知权限",
+  "gpc_a_request_notification_permissions_dialog_message": "打开通知权限，可及时获取游戏内的消息。",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "\"%1$s\"请求消息通知权限",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "请进入系统\"通知\"，找到\"%1$s\"应用，开启消息通知的权限"
+}

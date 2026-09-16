@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rl_root_content_view" android:background="@drawable/ops_bg_white_corner_16" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_header" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_back" android:visibility="gone" android:layout_width="45.0dp" android:layout_height="45.0dp" android:src="@drawable/ops_a_icon_webview_back_dark" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_close" android:layout_width="45.0dp" android:layout_height="45.0dp" android:src="@drawable/ops_a_icon_webview_close_dark" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/web" android:background="@android:color/white" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <RelativeLayout android:id="@id/rl_load_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:textSize="18.0sp" android:textColor="@android:color/white" android:id="@id/bt_reload" android:background="@drawable/ops_a_btn_corner_bg" android:layout_width="160.0dp" android:layout_height="40.0dp" android:layout_marginBottom="230.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/ops_a_error_tip_gray" android:id="@id/tv_load_error_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="28.0dp" android:layout_above="@id/bt_reload" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11.0dp" android:src="@null" android:layout_above="@id/tv_load_error_tip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_loading" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:id="@id/progress" android:layout_width="match_parent" android:layout_height="2.0dp" style="@android:style/Widget.ProgressBar.Horizontal" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

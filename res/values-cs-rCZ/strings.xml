@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="insert_sdcard">Vložit SD kartu</string>
+    <string name="pic_preview">Náhled obrázku</string>
+    <string name="pic_select">Vybrat obrázek</string>
+    <string name="pics">obr.</string>
+    <string name="pull_to_refresh_pull_label">Obnovíte tahem dolů…</string>
+    <string name="pull_to_refresh_refreshing_label">Načítání…</string>
+    <string name="pull_to_refresh_release_label">Obnovíte uvolněním…</string>
+    <string name="recent_pictures">Nejnovější obrázky</string>
+    <string name="take_photo">Vyfotit</string>
+</resources>

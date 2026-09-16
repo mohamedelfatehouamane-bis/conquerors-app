@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "重新加載",
+  "gpc_a_webview_load_failed": "加載失敗",
+  "gpc_a_request_permissions_dialog_cancel": "取消",
+  "gpc_a_request_permissions_dialog_ok": "授權",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "前往設置",
+  "gpc_a_request_permissions_tip_dialog_know": "OK",
+  "gpc_a_request_notification_permissions_dialog_new_title": "開啟通知",
+  "gpc_a_request_notification_permissions_dialog_title": "\"%1$s\"允許消息通知權限",
+  "gpc_a_request_notification_permissions_dialog_message": "開啟通知權限，可即時接收遊戲內的消息。",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "\"%1$s\"允許消息通知權限",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "開啟設定中的\"通知\"，找到\"%1$s\"應用程式，點選允許通知的權限"
+}

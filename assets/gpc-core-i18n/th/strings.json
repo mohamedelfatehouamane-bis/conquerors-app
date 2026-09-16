@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "โหลดอีกครั้ง",
+  "gpc_a_webview_load_failed": "การโหลดล้มเหลว",
+  "gpc_a_request_permissions_dialog_cancel": "ยกเลิก",
+  "gpc_a_request_permissions_dialog_ok": "ตกลง",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "ไปที่การตั้งค่า",
+  "gpc_a_request_permissions_tip_dialog_know": "ตกลง",
+  "gpc_a_request_notification_permissions_dialog_new_title": "เปิดการแจ้งเตือน",
+  "gpc_a_request_notification_permissions_dialog_title": "\"%1$s\" ขออนุญาตส่งการแจ้งเตือน",
+  "gpc_a_request_notification_permissions_dialog_message": "เปิดใช้งานการแจ้งเตือนเพื่อรับข่าวสารล่าสุด",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "\"%1$s\" ขออนุญาตส่งการแจ้งเตือน",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "ไปที่ [การตั้งค่า]-[การแจ้งเตือน] และค้นหาแอป \"%1$s\" เพื่อเปิดใช้งานการแจ้งเตือน"
+}

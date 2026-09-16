@@ -1,0 +1,242 @@
+{
+	"attack_side" : 
+	{
+		"all_power" : 10200,
+		"amount" : 1000,
+		"head" : 0,
+		"injured" : 355,
+		"kill" : 1428,
+		"leguage" : "",
+		"loss" : 0,
+		"name" : "",
+		"player_id" : 99,
+		"portrait" : 0,
+		"posx" : 4,
+		"posy" : 949,
+		"power" : -1811,
+		"server_id" : 3,
+		"server_name" : "Win😊",
+		"survival" : 645,
+		"tf_dominon_id" : 0,
+		"trap_loss" : 0
+	},
+	"data" : 
+	{
+		"vecBehavior" : 
+		[
+			{
+				"eType" : 2,
+				"nValue2" : 0,
+				"ucAttackCamp" : 0,
+				"ucAttackType" : 0,
+				"ucDefendCamp" : 0,
+				"ucDefendType" : 0,
+				"unAttackHeroId" : 0,
+				"unDefendHeroId" : 0,
+				"unValue1" : 0
+			},
+			{
+				"eType" : 1,
+				"nValue2" : 0,
+				"ucAttackCamp" : 1,
+				"ucAttackType" : 2,
+				"ucDefendCamp" : 17,
+				"ucDefendType" : 2,
+				"unAttackHeroId" : 206,
+				"unDefendHeroId" : 206,
+				"unValue1" : 206022
+			}
+		]
+	},
+	"defend_side" : 
+	{
+		"all_power" : 91782,
+		"amount" : 2800,
+		"head" : 1,
+		"injured" : 1428,
+		"kill" : 355,
+		"leguage" : "",
+		"loss" : 0,
+		"name" : "pve_stage_name_1_1",
+		"player_id" : 0,
+		"portrait" : 255,
+		"posx" : 0,
+		"posy" : 0,
+		"power" : -10228,
+		"server_id" : 3,
+		"server_name" : "Win😊",
+		"survival" : 1372,
+		"tf_dominon_id" : 0,
+		"trap_loss" : 0
+	},
+	"id" : "C54E1ECDB5DC4501A9F57030BE8E9C20",
+	"main_atk_addition" : 
+	{
+		"airForce" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"bowling_attack" : 0,
+		"cavalry" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"infantry" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"mechanize" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"rocket_attack" : 0,
+		"stone_attack" : 0
+	},
+	"main_def_addition" : 
+	{
+		"airForce" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"bowling_attack" : 0,
+		"cavalry" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"infantry" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"mechanize" : 
+		{
+			"attack" : 0,
+			"defend" : 0,
+			"life" : 0,
+			"speed" : 0
+		},
+		"rocket_attack" : 0,
+		"stone_attack" : 0
+	},
+	"nAttackerLeaderID" : 0,
+	"nDefenderLeaderID" : 0,
+	"rounds" : [],
+	"sTradeParam" : "",
+	"summary" : 
+	{
+		"attackers" : 
+		[
+			{
+				"head" : 0,
+				"heros" : 
+				[
+					{
+						"a_kill" : 800,
+						"alive" : 1000,
+						"army_id" : 1206,
+						"army_level" : 1,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 206,
+						"level" : 1,
+						"loss" : 0,
+						"quality" : 0,
+						"skill_level" : 2,
+						"station" : 25,
+						"vecSlots" : []
+					}
+				],
+				"id" : 99,
+				"league" : "",
+				"name" : "99",
+				"queue_id" : 0,
+				"thunders" : [],
+				"towers" : [],
+				"traps" : []
+			}
+		],
+		"defenders" : 
+		[
+			{
+				"head" : 1,
+				"heros" : 
+				[
+					{
+						"a_kill" : 0,
+						"alive" : 0,
+						"army_id" : 1206,
+						"army_level" : 2,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 206,
+						"level" : 11,
+						"loss" : 800,
+						"quality" : 0,
+						"skill_level" : 1,
+						"station" : 25,
+						"vecSlots" : []
+					},
+					{
+						"a_kill" : 0,
+						"alive" : 800,
+						"army_id" : 1306,
+						"army_level" : 1,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 306,
+						"level" : 1,
+						"loss" : 0,
+						"quality" : 0,
+						"skill_level" : 1,
+						"station" : 25,
+						"vecSlots" : []
+					},
+					{
+						"a_kill" : 0,
+						"alive" : 800,
+						"army_id" : 1406,
+						"army_level" : 1,
+						"exp" : 0,
+						"h_kill" : 0,
+						"id" : 406,
+						"level" : 1,
+						"loss" : 0,
+						"quality" : 0,
+						"skill_level" : 1,
+						"station" : 25,
+						"vecSlots" : []
+					}
+				],
+				"id" : 1,
+				"league" : "",
+				"name" : "pve_stage_name_1_1",
+				"queue_id" : 0,
+				"thunders" : [],
+				"towers" : [],
+				"traps" : []
+			}
+		]
+	},
+	"time" : 1547466098,
+	"type" : 102
+}

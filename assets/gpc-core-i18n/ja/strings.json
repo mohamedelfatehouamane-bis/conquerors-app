@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "再ローディング",
+  "gpc_a_webview_load_failed": "ローディングに失敗",
+  "gpc_a_request_permissions_dialog_cancel": "キャンセル",
+  "gpc_a_request_permissions_dialog_ok": "OK",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "設定する",
+  "gpc_a_request_permissions_tip_dialog_know": "OK",
+  "gpc_a_request_notification_permissions_dialog_new_title": "通知機能の利用",
+  "gpc_a_request_notification_permissions_dialog_title": "「%1$s」が通知送信の許可を要求",
+  "gpc_a_request_notification_permissions_dialog_message": "通知を許可すると、ゲームの最新情報を随時受信できます。",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "「%1$s」が通知送信の許可を要求",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "[設定]>[通知]で「%1$s」アプリの通知を有効にしてください"
+}

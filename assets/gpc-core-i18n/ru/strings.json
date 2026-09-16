@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "Перезагрузка",
+  "gpc_a_webview_load_failed": "Ошибка загрузки",
+  "gpc_a_request_permissions_dialog_cancel": "Отмена",
+  "gpc_a_request_permissions_dialog_ok": "OK",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "Перейти к настройкам",
+  "gpc_a_request_permissions_tip_dialog_know": "OK",
+  "gpc_a_request_notification_permissions_dialog_new_title": "Включить уведомления",
+  "gpc_a_request_notification_permissions_dialog_title": "«%1$s» запрашивает разрешение на отправку уведомлений",
+  "gpc_a_request_notification_permissions_dialog_message": "Включите уведомления, чтобы получать последние обновления игры",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "«%1$s» запрашивает разрешение на отправку уведомлений",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "Перейдите в [Настройки]-[Уведомления] и найдите «%1$s», чтобы включить уведомления"
+}

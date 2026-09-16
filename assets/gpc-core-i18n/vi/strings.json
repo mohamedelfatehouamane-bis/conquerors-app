@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "Tải lại",
+  "gpc_a_webview_load_failed": "Tải về thất bại",
+  "gpc_a_request_permissions_dialog_cancel": "Hủy",
+  "gpc_a_request_permissions_dialog_ok": "OK",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "Đến Cài đặt",
+  "gpc_a_request_permissions_tip_dialog_know": "OK",
+  "gpc_a_request_notification_permissions_dialog_new_title": "Bật Thông Báo",
+  "gpc_a_request_notification_permissions_dialog_title": "\"%1$s\" yêu cầu quyền gửi thông báo",
+  "gpc_a_request_notification_permissions_dialog_message": "Bật thông báo để nhận các bản cập nhật trò chơi mới nhất",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "\"%1$s\" yêu cầu quyền gửi thông báo",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "Đi đến [Cài đặt]-[Thông báo] và tìm ứng dụng \"%1$s\" để bật thông báo"
+}

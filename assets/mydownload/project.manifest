@@ -1,0 +1,13 @@
+{
+	"packageUrl" : "ftp://10.0.22.8/Tiger/Assets/",
+	"remoteManifestUrl" : "ftp://10.0.22.8/Tiger/project_dev.manifest",
+	"remoteVersionUrl" : "ftp://10.0.22.8/Tiger/version_dev.manifest",
+	"version" : "1.0.0",
+	"engineVersion" : "3.0 beta",
+
+	"assets" : {
+	},
+	
+  "searchPaths" : [
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="insert_sdcard">Masukkan SD Card</string>
+    <string name="pic_preview">Pratinjau Gambar</string>
+    <string name="pic_select">Pilih Gambar</string>
+    <string name="pics">Gambar</string>
+    <string name="pull_to_refresh_pull_label">Tarik turun untuk menyegarkan…</string>
+    <string name="pull_to_refresh_refreshing_label">Memuat…</string>
+    <string name="pull_to_refresh_release_label">Lepas untuk menyegarkan…</string>
+    <string name="recent_pictures">Gambar Terkini</string>
+    <string name="take_photo">Ambil Foto</string>
+</resources>

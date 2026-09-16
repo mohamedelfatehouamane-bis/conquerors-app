@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_photo_lpsi" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/layout_select" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/cb_photo_lpsi" android:background="@drawable/ops_a_photo_def_photo_picker_vc" android:layout_width="30.0dp" android:layout_height="30.0dp" android:button="@null" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/iv_select_tip" android:background="@drawable/ops_a_photo_number_icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_select_tip" android:layout_width="30.0dp" android:layout_height="30.0dp" android:text="1" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/iv_video_icon" android:background="@drawable/ops_a_icon_player_play_normal" android:layout_width="30.0dp" android:layout_height="30.0dp" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

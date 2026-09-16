@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "Ricaricare",
+  "gpc_a_webview_load_failed": "Caricamento fallito",
+  "gpc_a_request_permissions_dialog_cancel": "Cancella",
+  "gpc_a_request_permissions_dialog_ok": "OK",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "Vai a Impostazioni",
+  "gpc_a_request_permissions_tip_dialog_know": "OK",
+  "gpc_a_request_notification_permissions_dialog_new_title": "Abilita notifiche",
+  "gpc_a_request_notification_permissions_dialog_title": "%1$s richiede l'autorizzazione a inviare notifiche",
+  "gpc_a_request_notification_permissions_dialog_message": "Attiva le notifiche per ricevere gli ultimi aggiornamenti del gioco",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "%1$s richiede l'autorizzazione a inviare notifiche",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "Vai su [Impostazioni]-[Notifiche] e cerca l'app \"%1$s\" per abilitare le notifiche"
+}

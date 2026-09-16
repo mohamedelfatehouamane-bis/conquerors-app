@@ -1,0 +1,13 @@
+{
+  "gpc_a_webview_reload": "다시 로딩",
+  "gpc_a_webview_load_failed": "로딩 실패",
+  "gpc_a_request_permissions_dialog_cancel": "취소",
+  "gpc_a_request_permissions_dialog_ok": "OK",
+  "gpc_a_request_permissions_tip_dialog_go_setting": "설정으로 이동",
+  "gpc_a_request_permissions_tip_dialog_know": "OK",
+  "gpc_a_request_notification_permissions_dialog_new_title": "알림 활성",
+  "gpc_a_request_notification_permissions_dialog_title": "\"%1$s\" 권한 요청 알림",
+  "gpc_a_request_notification_permissions_dialog_message": "권한 알림을 설정하면 게임 내 소식을 바로 확인할 수 있습니다",
+  "gpc_a_request_notification_permissions_tip_dialog_title": "\"%1$s\" 권한 요청 알림",
+  "gpc_a_request_notification_permissions_tip_dialog_message": "시스템 \"알림\"에서 \"%1$s\" 앱을 찾아서 알림을 활설화합니다"
+}

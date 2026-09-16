@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="insert_sdcard">SD Kart kullan</string>
+    <string name="pic_preview">Resmi önizle</string>
+    <string name="pic_select">Resim seçin</string>
+    <string name="pics">Resimler</string>
+    <string name="pull_to_refresh_pull_label">Yenilemek için aşağı çek…</string>
+    <string name="pull_to_refresh_refreshing_label">Yükleniyor…</string>
+    <string name="pull_to_refresh_release_label">Yenilemek için bırak…</string>
+    <string name="recent_pictures">En Son Resimler</string>
+    <string name="take_photo">Fotoğraf Çek</string>
+</resources>
