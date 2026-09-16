@@ -2066,6 +2066,10 @@
     .line 310
     sput-object p0, Lcom/igg/android/conquerors/col;->s_Instance:Lcom/igg/android/conquerors/col;
 
+    iget-object v0, p0, Lorg/cocos2dx/lib/Cocos2dxActivity;->mFrameLayout:Lorg/cocos2dx/lib/ResizeLayout;
+
+    invoke-static {p0, v0}, Lcom/igg/bot/IntegratedBotManager;->init(Landroid/app/Activity;Landroid/widget/FrameLayout;)V
+
     const/4 p1, 0x0
 
     .line 311
